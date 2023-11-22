@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box
+}
+
+#row1 {
+    height: 1%;
+}
+
+#row2 {
+    height: 150px;
+    background-color: lightgray;
+}
+
+.main {
+    border-bottom: 2px solid grey;
+}
+
+.right{
+    border-right: 2px solid grey;
+}
+
+.name {
+    display: flex;
+    justify-content: center;   
+}
+
+#total {
+    height: 200px;
+    border: solid 1px red;  
+}
+
+.pattern {
+    font-size: 30px;
+}
+
+.subheading {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.details {
+    font-size: 18px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+ul.custom-list {
+    list-style: none; /* Remove default list-style */
+}
+
+ul.custom-list {
+    padding-left: 25px; /* Add space for the image */
+}
+
+ul.custom-list li {
+    background: url('call.jpg') no-repeat left center; /* Set the background image */
+    padding-left: 30px; /* Add space for the image */
+    background-size: 24px 24px; /* Adjust the image size */
+    line-height: 20px; /* Match line height to image height */
+}
+
+ul.custom-list2 {
+    list-style: none; 
+}
+
+ul.custom-list2 {
+    padding-left: 25px; 
+}
+
+ul.custom-list2 li {
+    background: url('mail.png') no-repeat left center;
+    padding-left: 30px; 
+    background-size: 17px 17px; 
+    line-height: 20px;
+}
+
+ul.custom-list3 {
+    list-style: none; 
+}
+
+ul.custom-list3 {
+    padding-left: 25px; 
+}
+
+ul.custom-list3 li {
+    background: url('location.png') no-repeat left center; 
+    padding-left: 30px; 
+    background-size: 17px 17px; 
+    line-height: 20px; 
+}
+
+
+
+
+
+    
